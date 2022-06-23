@@ -3,6 +3,8 @@ package pack05.ojdbc2;
 public class UserInfoDTO {
 	String USER_ID, USER_PW, FIRST_NAME, LAST_NAME, CREATE_YMD, UPDATE_YMD;
 	int STUDENT_NO;
+	
+	public UserInfoDTO() {}
 	public UserInfoDTO(int sTUDENT_NO, String uSER_ID, String uSER_PW, String fIRST_NAME, String lAST_NAME,
 			String cREATE_YMD, String uPDATE_YMD) {
 		super();
@@ -13,6 +15,14 @@ public class UserInfoDTO {
 		LAST_NAME = lAST_NAME;
 		CREATE_YMD = cREATE_YMD;
 		UPDATE_YMD = uPDATE_YMD;
+	}
+	public UserInfoDTO(int student_no2, String user_id2, String user_pw2, String frist_name, String last_name2) {
+		// TODO Auto-generated constructor stub
+		STUDENT_NO = student_no2;
+		USER_ID = user_id2;
+		USER_PW = user_pw2;
+		FIRST_NAME = frist_name;
+		LAST_NAME = last_name2;
 	}
 	public String getUSER_ID() {
 		return USER_ID;

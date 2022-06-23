@@ -84,7 +84,7 @@ public class StudentDAO {
 	public void viewList(ArrayList<JdbcDTO> list) {
 		
 		if(list == null || list.size()==0) {
-			System.out.println("보여줄 목록이 없습니다.");
+			System.out.println("");
 		}
 		for (int i = 0; i < list.size() ; i++) {
 			System.out.println(list.get(i).getStudent_no() + " " + list.get(i).getStudent_name());
