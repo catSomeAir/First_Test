@@ -20,6 +20,7 @@ public class Ex01_Test {
 	// ResultSet <= 전송하고 나서 응답을 받으면 그 결과를 담는 객체 ( 결과 객체 )
 	
 //10월 1일 check
+//10월 2일 check
 	//오라클에 연결되는지 테스트 메소드 
 //	public boolean connTest() {	//url, user, password, Ojdbc Class ( 동적 로딩 = 자주안씀)
 //		
