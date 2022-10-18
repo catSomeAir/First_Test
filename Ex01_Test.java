@@ -27,6 +27,7 @@ public class Ex01_Test {
 //10월 15일 check
 //10월16일
 //10월 17일 check
+//10월 18일 check
 
 	//오라클에 연결되는지 테스트 메소드 
 //	public boolean connTest() {	//url, user, password, Ojdbc Class ( 동적 로딩 = 자주안씀)
