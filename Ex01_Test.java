@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Scanner;
-
+//출석
 public class Ex01_Test {
 	
 	//● Oracle Java DataBase Connection : OJDBC 오라클이랑 자바랑 연결해주는 라이브러리
